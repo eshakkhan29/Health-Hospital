@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiSearchAlt } from 'react-icons/bi';
+import { FiChevronDown } from 'react-icons/fi';
 
 const Header = () => {
     return (
@@ -14,7 +15,7 @@ const Header = () => {
                             </label>
                             <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                                 <Link className='text-lg font-medium mr-6' to='/'>Home</Link>
-                                <Link className='text-lg font-medium mr-6' to='/departments'>Departments</Link>
+                                <Link className='text-lg font-medium mr-6' to='/'>Departments <FiChevronDown className='inline'/></Link>
                                 <Link className='text-lg font-medium mr-6' to='/about'>About</Link>
                                 <Link className='text-lg font-medium mr-6' to='/doctors'>Doctors</Link>
                                 <Link className='text-lg font-medium mr-6' to='/contact'>Contact</Link>
@@ -22,13 +23,13 @@ const Header = () => {
                             </ul>
                         </div>
                         <Link to='/'>
-                            <img src="../../public/images/logos/hospital-logo.png" alt="logo" />
+                            <img src="/img/logos/hospital-logo.png" alt="logo" />
                         </Link>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="menu menu-horizontal p-0">
                             <Link className='text-lg font-medium mr-6' to='/'>Home</Link>
-                            <Link className='text-lg font-medium mr-6' to='/departments'>Departments</Link>
+                            <Link className='text-lg font-medium mr-6' to='/'>Departments<FiChevronDown className='inline'/></Link>
                             <Link className='text-lg font-medium mr-6' to='/about'>About</Link>
                             <Link className='text-lg font-medium mr-6' to='/doctors'>Doctors</Link>
                             <Link className='text-lg font-medium mr-6' to='/contact'>Contact</Link>
