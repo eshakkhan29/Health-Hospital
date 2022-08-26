@@ -5,7 +5,7 @@ import { FiChevronDown } from 'react-icons/fi';
 
 const Header = () => {
     return (
-        <div className='bg-white py-3 sticky top-0'>
+        <div className='bg-white py-3 sticky top-0 z-50 shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)]'>
             <div className='lg:w-7/12 mx-auto lg:px-0 px-2'>
                 <div class="navbar">
                     <div class="navbar-start justify-between w-full">
