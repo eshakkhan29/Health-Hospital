@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BiSearchAlt } from 'react-icons/bi';
 import { FiChevronDown } from 'react-icons/fi';
 
 const Header = () => {
@@ -34,7 +33,6 @@ const Header = () => {
                             <Link className='text-lg font-medium mr-6 hover:text-secondary duration-100 hover:border-b border-secondary' to='/doctors'>Doctors</Link>
                             <Link className='text-lg font-medium mr-6 hover:text-secondary duration-100 hover:border-b border-secondary' to='/contact'>Contact</Link>
                             <Link className='text-lg font-medium mr-6 hover:text-secondary duration-100 hover:border-b border-secondary' to='/blogs'>Blogs</Link>
-                            <p className='text-2xl cursor-pointer px-1 border border-gray-800'><BiSearchAlt /></p>
                         </ul>
                     </div>
                     <div class="navbar-end hidden lg:flex">
