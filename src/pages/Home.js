@@ -3,9 +3,9 @@ import Banner from '../components/Banner';
 import ChooseUs from '../components/ChooseUs';
 import Department from '../components/Department';
 import Doctors from '../components/Doctors';
-import Footer from '../components/Footer';
+import Footer from '../components/utility/Footer';
 import Gallery from '../components/Gallery';
-import Header from '../components/Header';
+import Header from '../components/utility/Header';
 import Map from '../components/Map';
 import Testimonial from '../components/Testimonial';
 

@@ -35,20 +35,20 @@ const Footer = () => {
                             <h2 className='text-2xl font-medium text-white'>Useful link</h2>
                             <div className='flex justify-between mt-4'>
                                 <ul className='flex flex-col justify-center gap-y-5'>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Physical Medicine  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Gynecology  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Pulomonology  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Pediatrics  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Urology   </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Cardiology   </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Physical Medicine  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Gynecology  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Pulomonology  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Pediatrics  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Urology   </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Cardiology   </Link>
                                 </ul>
                                 <ul className='flex flex-col justify-center gap-y-5'>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Neurology  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Ophthalmology  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Deparments  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Doctors  </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Contact   </Link>
-                                    <Link className='text-base  text-[#A8A8A8]' to="/">-Blogs   </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Neurology  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/">-Ophthalmology  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/departments">-Departments  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/doctors">-Doctors  </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/contact">-Contact   </Link>
+                                    <Link className='text-base hover:text-secondary duration-150 text-[#A8A8A8]' to="/blogs">-Blogs   </Link>
                                 </ul>
                             </div>
                         </div>
@@ -60,19 +60,19 @@ const Footer = () => {
                             <div className='mt-4 flex flex-col justify-center gap-y-[50px]'>
                                 <div>
                                     <div className='flex items-center'>
-                                        <span className='w-9 h-9 cursor-pointer text-xl duration-200 text-white hover:text-[#01fd33] hover:border-[#01fd33] bg-transparent rounded-full border border-white flex items-center justify-center'><FaPhoneAlt /></span>
+                                        <span className='w-9 h-9 text-xl text-white bg-transparent rounded-full border border-white flex items-center justify-center'><FaPhoneAlt /></span>
                                         <p className='ml-3 text-[#A8A8A8] text-base'>+455 336 12312</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className='flex items-center'>
-                                        <span className='w-9 h-9 cursor-pointer text-xl duration-200 text-white hover:text-[#ff8000] hover:border-[#ff8000] bg-transparent rounded-full border border-white flex items-center justify-center'><FaMailBulk /></span>
+                                        <span className='w-9 h-9 text-xl text-white bg-transparent rounded-full border border-white flex items-center justify-center'><FaMailBulk /></span>
                                         <p className='ml-3 text-[#A8A8A8] text-base'>healthhospital@gmail.com</p>
                                     </div>
                                 </div>
                                 <div>
                                     <div className='flex items-center'>
-                                        <span className='w-9 h-9 cursor-pointer text-xl duration-200 text-white hover:text-[#ff006f] hover:border-[#ff006f] bg-transparent rounded-full border border-white flex items-center justify-center'><MdLocationOn /></span>
+                                        <span className='w-9 h-9 text-xl text-white bg-transparent rounded-full border border-white flex items-center justify-center'><MdLocationOn /></span>
                                         <p className='ml-3 text-[#A8A8A8] text-base'>Sesame Street <br />
                                             London, United Kingdom</p>
                                     </div>
