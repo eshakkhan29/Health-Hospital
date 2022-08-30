@@ -1,13 +1,13 @@
 import React from 'react';
-import Banner from '../components/Banner';
-import ChooseUs from '../components/ChooseUs';
-import Department from '../components/Department';
-import Doctors from '../components/Doctors';
+import Banner from '../components/Home/Banner';
+import ChooseUs from '../components/Home/ChooseUs';
+import Department from '../components/Home/Department';
+import Doctors from '../components/Home/Doctors';
 import Footer from '../components/utility/Footer';
-import Gallery from '../components/Gallery';
+import Gallery from '../components/Home/Gallery';
 import Header from '../components/utility/Header';
-import Map from '../components/Map';
-import Testimonial from '../components/Testimonial';
+import Map from '../components/Home/Map';
+import Testimonial from '../components/Home/Testimonial';
 
 const Home = () => {
     return (

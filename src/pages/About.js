@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import AboutAside from '../components/About/AboutAside';
 import AboutDetails from '../components/About/AboutDetails';
 import Mission from '../components/About/Mission';
-import ChooseUs from '../components/ChooseUs';
+import ChooseUs from '../components/Home/ChooseUs';
 import Appointment from '../components/utility/Appointment';
 import Breadcrumbs from '../components/utility/Breadcrumbs';
 import Footer from '../components/utility/Footer';
