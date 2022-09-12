@@ -2,12 +2,12 @@ import React from 'react';
 
 const ChooseUs = () => {
     return (
-        <div className='h-[450px] bg-[#012A4A]'>
+        <div className=' bg-[#012A4A]'>
             <div className='lg:w-7/12 mx-auto lg:px-0 px-2'>
-                <h1 className='text-center text-white pt-[61px] text-[40px] font-light'>Why <span className='font-bold'>Choose</span> Us</h1>
+                <h1 className='text-center text-white pt-[61px] text-[30px] lg:text-[40px] font-light'>Why <span className='font-bold'>Choose</span> Us</h1>
                 <p className='text-center text-[16px] text-[#878787] pt-[16px]'>Our Achievement</p>
 
-                <div className='pt-[70px] flex items-center justify-between gap-10'>
+                <div className='py-[70px] flex flex-col lg:flex-row items-center justify-between gap-10 text-center lg:text-left'>
                     <div>
                         <h3 className='text-[40px] font-bold text-secondary'>8550+</h3>
                         <p className='text-white text-2xl'>Happy Patients</p>
