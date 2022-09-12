@@ -6,7 +6,7 @@ import { GiAmbulance } from 'react-icons/gi';
 
 const ContactInfo = () => {
     return (
-        <div className='grid grid-cols-2 gap-x-[30px] gap-y-[80px]'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 gap-x-[30px] gap-y-[30px] lg:gap-y-[80px]'>
             <div className='shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] bg-white p-[25px] flex flex-col items-center'>
                 <span className='w-10 h-10 text-2xl text-primary bg-white rounded-full border border-primary flex items-center justify-center'><FaPhoneAlt /></span>
                 <div className='mt-[19px] text-center'>
