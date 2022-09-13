@@ -11,8 +11,8 @@ const Footer = () => {
                     <h1 className='lg:text-[40px] text-[30px] font-bold text-white pt-[55px] text-center'>Subscribe Our Newsletter</h1>
                     <p className='text-center text-[#A8A8A8] text-base pt-[10px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br /> eiusmod tempor incididunt ut labore et dolore</p>
                     <div className='flex items-center justify-center py-[40px]'>
-                        <input className='bg-white py-[28px] pl-[40px] w-[422px] outline-none' placeholder='Enter Your Email Address' type="email" />
-                        <button className='bg-secondary text-white text-base font-bold py-[28px] px-[36px]'>Subscribe</button>
+                        <input className='bg-white lg:py-[28px] py-[18px] lg:pl-[40px] px-[15px] lg:w-[422px] outline-none' placeholder='Enter Your Email Address' type="email" />
+                        <button className='bg-secondary text-white text-base font-bold lg:py-[28px] py-[18px] px-[36px]'>Subscribe</button>
                     </div>
                     <hr />
 

@@ -4,12 +4,12 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 const DoctorDetails = () => {
     return (
         <div>
-            <div className='h-[236px] shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] bg-white flex'>
-                <div className='w-4/12 h-full'>
+            <div className=' shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] bg-white flex flex-col lg:flex-row'>
+                <div className='lg:w-4/12'>
                     <img className='w-full h-full' src="/img/doctors/tony.png" alt="" />
                 </div>
-                <div className='w-8/12 pl-[60px] pr-[20px]'>
-                    <h3 className='text-[#012A4A] text-2xl font-bold mt-[29px]'>Dr. Tony Stark</h3>
+                <div className='lg:w-8/12 pl-[60px] pr-[20px] py-[30px]'>
+                    <h3 className='text-[#012A4A] text-2xl font-bold'>Dr. Tony Stark</h3>
                     <h4 className='text-[#929292] text-[20px] text-base mt-5 mb-3'>Gastroenterology , MBBS</h4>
                     <p className='text-[#929292] text-base'>Diam cum eu urna, nunc duis pulvinafusce elit mollisnulla soluta aliquam adipisicing vehicula ac. Turpis ipsum dolor</p>
                 </div>
