@@ -4,7 +4,7 @@ const Comments = () => {
     return (
         <div>
             <h2 className='text-[40px] font-bold'>02 Comments</h2>
-            <div className='w-[641px] py-[70px]'>
+            <div className='py-[70px]'>
                 <div className='py-[24px]'>
                     <div className='flex items-center justify-between'>
                         <div className='flex items-center'>

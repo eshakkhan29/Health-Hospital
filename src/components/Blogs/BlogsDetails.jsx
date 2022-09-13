@@ -20,12 +20,14 @@ const BlogsDetails = () => {
             <div>
                 <h3 className='text-[20px] font-bold mb-[42px]'>Leave a comment</h3>
                 <form>
-                    <div className='flex items-center justify-between gap-[100px] mb-[30px]'>
+                    <div className='flex lg:flex-row flex-col items-center justify-between gap-y-[30px] lg:gap-[100px] mb-[30px]'>
                         <input type="text" placeholder='Name' className='placeholder:text-[#A7A7A7] py-[19px] px-[25px] bg-white shadow-[0px_0px_4px_2px_rgba(0,0,0,0.25)] w-full outline-none' />
                         <input type="email" placeholder='Email' className='placeholder:text-[#A7A7A7] py-[19px] px-[25px] bg-white shadow-[0px_0px_4px_2px_rgba(0,0,0,0.25)] w-full outline-none' />
                     </div>
-                    <textarea className='placeholder:text-[#A7A7A7] py-[35px] px-[25px] bg-white shadow-[0px_0px_4px_2px_rgba(0,0,0,0.25)] w-full outline-none' placeholder='Write Message'></textarea>
-                    <button className='text-white bg-primary py-[22px] px-[38px] text-base font-medium mt-[30px]'>Post Comment</button>
+                    <textarea className='placeholder:text-[#A7A7A7] py-[30px] px-[25px] bg-white shadow-[0px_0px_4px_2px_rgba(0,0,0,0.25)] w-full outline-none' placeholder='Write Message'></textarea>
+                    <div className='text-center lg:text-left'>
+                        <button className='text-white bg-primary py-[22px] px-[38px] text-base font-medium mt-[30px]'>Post Comment</button>
+                    </div>
                 </form>
             </div>
         </div>
