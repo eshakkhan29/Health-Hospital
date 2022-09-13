@@ -14,7 +14,7 @@ const DoctorDetails = () => {
                     <p className='text-[#929292] text-base'>Diam cum eu urna, nunc duis pulvinafusce elit mollisnulla soluta aliquam adipisicing vehicula ac. Turpis ipsum dolor</p>
                 </div>
             </div>
-            <div className='mt-[33px] shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] bg-white'>
+            <div className='mt-[33px] shadow-[0px_0px_4px_2px_rgba(0,0,0,0.1)] bg-white overflow-x-scroll'>
                 <table className='border-collapse'>
                     <tbody>
                         <tr>
