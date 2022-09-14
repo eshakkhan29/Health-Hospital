@@ -5,14 +5,27 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper";
 
 const Testimonial = () => {
+
     return (
         <div className='lg:w-7/12 mx-auto lg:px-0 px-2'>
             <h1 className='text-center text-5xl font-bold text-[#012A4A] py-14'>Testimonial</h1>
             <Swiper
-                slidesPerView={2.4}
-                spaceBetween={0}
                 navigation={true}
                 modules={[Navigation]}
+                breakpoints={{
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                    },
+                    768: {
+                        slidesPerView: 4,
+                        spaceBetween: 40,
+                    },
+                    1024: {
+                        slidesPerView: 2.4,
+                        spaceBetween: 0,
+                    },
+                }}
                 className="mySwiper"
             >
                 <SwiperSlide>
